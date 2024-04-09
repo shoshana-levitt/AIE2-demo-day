@@ -1,5 +1,7 @@
 # 🧑‍💻 What is [AI Engineering](https://maven.com/aimakerspace/ai-eng-bootcamp)?
 
+MIKEC
+
 AI Engineering refers to the industry-relevant skills that data science and engineering teams need to successfully **build, deploy, operate, and improve Large Language Model (LLM) applications in production environments**.  
 
 In practice, this requires understanding both prototyping and production deployments.
