@@ -5,7 +5,7 @@
      height="auto"/>
 </p>
 
-## <h1 align="center" id="heading">🔍 AI Makerspace Cohort #2</h1> <h1> Midterm - RAG Application</h1>
+## <h1 align="center" id="heading">🔍 AI Makerspace Midterm - RAG Application</h1>
 
 ### Outline:
 
