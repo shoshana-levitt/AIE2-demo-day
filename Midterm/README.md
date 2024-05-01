@@ -1,7 +1,7 @@
 
 
 <p align = "center" draggable=”false” ><img src="https://github.com/MikeConDH/AIE2/blob/main/MikeC/CraBashIcon.jpg" 
-     width="250px"
+     width="200px"
      height="auto"/>
 </p>
 
