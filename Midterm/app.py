@@ -22,7 +22,6 @@ load_dotenv()
 
 
 
-
 # ChatOpenAI Templates
 system_template = """You are a helpful assistant who always speaks in a pleasant tone!
 """
