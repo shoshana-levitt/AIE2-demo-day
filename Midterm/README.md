@@ -34,7 +34,7 @@
   [Python Script app.py](https://github.com/MikeConDH/AIE2/blob/main/Week%203/Day%202/Assignment_Introduction_to_LangChain_v0_1_0_and_LCEL_LangChain_Powered_RAG.ipynb)
 
 # Ship 🚢
-- The python notebook to see the [RAG Pipeline] (https://github.com/MikeConDH/AIE2/blob/main/Week%203/Day%202/Assignment_Introduction_to_LangChain_v0_1_0_and_LCEL_LangChain_Powered_RAG.ipynb)
+- The python notebook to see the   [RAG Pipeline](https://github.com/MikeConDH/AIE2/blob/main/Week%203/Day%202/Assignment_Introduction_to_LangChain_v0_1_0_and_LCEL_LangChain_Powered_RAG.ipynb)
   
 - Chainlit App hosted on Hugging Face:
   https://github.com/MikeConDH/AIE2/blob/main/Week%203/Day%202/Assignment_Introduction_to_LangChain_v0_1_0_and_LCEL_LangChain_Powered_RAG.ipynb
