@@ -8,13 +8,15 @@
 ## <h1 align="center" id="heading">🔍 AI Makerspace Midterm - RAG Application</h1>
 
 ### Outline:
-1) Deploy a Hugging Face Space with a simple Chainlit Q&A App using GPT-3
+####Step 1) Deploy a Hugging Face Space with a simple Chainlit Q&A App using GPT-3
+
    Because this is general time suck that is the app shell that wraps the RAG application. DevOps is not my forte.
-3) RAG (Data, Embeddings, Vector Store, Langchain, Prompt Template)
+
+#### Step 2) RAG (Data, Embeddings, Vector Store, Langchain, Prompt Template)
    Leverage the lessons on RAG using LangChain, set things and test in the notebook
-4) Answer the 2 Questions (Test, Tweek, Repeat)
+#### Step 3) Answer the 2 Questions (Test, Tweek, Repeat)
    Adjust as much as possible to get the two questions to answer correcdtly
-6) RAGAS some metric (Maybe)
+#### Step 4) RAGAS some metric (Maybe)
    Time permitting, do a before and after from basic to final RAG.
 
 ### Steps to Run:
