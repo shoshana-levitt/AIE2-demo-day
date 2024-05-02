@@ -3,34 +3,21 @@
 # Date: 2024-5-2
 # Authors: MikeC
 
-# ========================================================
-# This is the main file for the ChatGPT app
-# ========================================================
-# Task 1: Basic Imports, Keys and Setup
-# Task 2: Component Initalization
-#           a) LLM: (OpenAI) Mistral 7B
-#           b) Embedding Model: OpenAI text-embedding-3-small
-#           c) UI: Chainlit
-#           d) Chatbot: ChatOpenAI
-# Task 3: RAG Pipeline
-# Task 4: Chatbot
-
-# [Task 1] Basic Imports, Keys and Setup
+# Basic Imports & Setup
 import os
 
-# OpenAI Chat completion, Do we need this?
-from openai import AsyncOpenAI  # importing openai for API usage
+from openai import AsyncOpenAI
 
-# Using Chainlit for our UI, future port to Streamlit
-import chainlit as cl  # importing chainlit for our app
-from chainlit.prompt import Prompt, PromptMessage  # importing prompt tools
-from chainlit.playground.providers import ChatOpenAI  # importing ChatOpenAI tools
+# Using Chainlit for our UI
+import chainlit as cl  
+from chainlit.prompt import Prompt, PromptMessage  
+from chainlit.playground.providers import ChatOpenAI 
 
 # Getting the API key from the .env file
 from dotenv import load_dotenv
 load_dotenv()
 
-# Task 2: Component Initalization
+# RAG is the Rage 
 
 
 
@@ -90,9 +77,7 @@ async def main(message: cl.Message):
     msg = cl.Message(content="")
 
 
-
     # Question and Answer Chatbot
-
     # Call OpenAI
     async for stream_resp in await client.chat.completions.create(
         messages=[m.to_openai() for m in prompt.messages], stream=True, **settings
