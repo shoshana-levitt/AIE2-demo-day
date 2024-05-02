@@ -8,34 +8,38 @@
 ## <h1 align="center" id="heading">🔍 AI Makerspace Midterm - RAG Application</h1>
 
 ### Outline:
-
-- Task 1: Imports and Utilities
-- Task 2: Documents
-- Task 3: Embeddings and Vectors
-- Task 4: Prompts
-- Task 5: Retrieval Augmented Generation
-- Task 6: Visibility Tooling
-- Task 7: RAG Evaluation Using GPT-4
+1) Deploy a Hugging Face Space with a simple Chainlit Q&A App using GPT-3
+   Because this is general time suck that is the app shell that wraps the RAG application. DevOps is not my forte.
+3) RAG (Data, Embeddings, Vector Store, Langchain, Prompt Template)
+   Leverage the lessons on RAG using LangChain, set things and test in the notebook
+4) Answer the 2 Questions (Test, Tweek, Repeat)
+   Adjust as much as possible to get the two questions to answer correcdtly
+6) RAGAS some metric (Maybe)
+   Time permitting, do a before and after from basic to final RAG.
 
 ### Steps to Run:
-
 1. Create a Python 3.11 environment
-2. `pip install jupyter` so you can run the notebook
-3. `pip install -r requirements.txt` to install all the requirements
+2. Go the python notebook and run the jupyter notebook to see the RAG pipleine construction
+3. Go to Hugging Face to run the deployed Chainlit App.
 
 # Build 🏗️
-
-Leveraged code from AI Makerspace Cohert 2 class #3
-Bonus: added ragas code from AI Makerspace Cohert 2 class #7
-Run the 
+- The python notebook to see the RAG Pipeline:
+  https://github.com/MikeConDH/AIE2/blob/main/Week%203/Day%202/Assignment_Introduction_to_LangChain_v0_1_0_and_LCEL_LangChain_Powered_RAG.ipynb
+- The python script with RAG Pipeline with Chainlit App:
+  https://github.com/MikeConDH/AIE2/blob/main/Week%203/Day%202/Assignment_Introduction_to_LangChain_v0_1_0_and_LCEL_LangChain_Powered_RAG.ipynb
 
 # Ship 🚢
-
-- Run the notebook
-- Record a Loom walking through the notebook, the questions in the notebook, your addition, and a WandB trace.
+- The python notebook to see the RAG Pipeline:
+  https://github.com/MikeConDH/AIE2/blob/main/Week%203/Day%202/Assignment_Introduction_to_LangChain_v0_1_0_and_LCEL_LangChain_Powered_RAG.ipynb
+  
+- Chainlit App hosted on Hugging Face:
+  https://github.com/MikeConDH/AIE2/blob/main/Week%203/Day%202/Assignment_Introduction_to_LangChain_v0_1_0_and_LCEL_LangChain_Powered_RAG.ipynb
 
 # Share 🚀
+- The MikeC Midterm Loom Video:
+  https://www.loom.com/share/6b6959c8202446dea5005394a72eb823
+  
+- Hugging Face Space:
+  https://huggingface.co/spaces/MikeCraBash/mikecplay
 
-- The MikeC Midterm video (AugxLabs /w loom)
-- Posted on YouTube and tagged @AIMakerspace
 
