@@ -44,7 +44,7 @@ user_template = """{input}
 Think through your response step by step.
 """
 
-
+# Chainlit App 
 @cl.on_chat_start  # marks a function that will be executed at the start of a user session
 async def start_chat():
     settings = {
