@@ -33,25 +33,16 @@ app_port: 7860
 3. Go to Hugging Face to run the deployed Chainlit App.
 
 # Build 🏗️
-- The python notebook to see the RAG Pipeline:
-  
-  [Python Notebook: MidTerm.ipynb](https:https://github.com/MikeConDH/AIE2/blob/main/Midterm/MikeC%20Midterm.ipynb)
-  
-- The python script with RAG Pipeline with Chainlit App:
-
-  [Python Script app.py](https://github.com/MikeConDH/AIE2/blob/main/Week%203/Day%202/Assignment_Introduction_to_LangChain_v0_1_0_and_LCEL_LangChain_Powered_RAG.ipynb)
+- The python notebook to see the RAG Pipeline: MikeC Midterm.ipynb (see above)  
+- The python script with RAG Pipeline with Chainlit App: app.py (see AppSandbox above)
 
 # Ship 🚢
-- The python notebook to see the   [RAG Pipeline](https://github.com/MikeConDH/AIE2/blob/main/Week%203/Day%202/Assignment_Introduction_to_LangChain_v0_1_0_and_LCEL_LangChain_Powered_RAG.ipynb)
-  
-- Chainlit App hosted on Hugging Face:
-  https://github.com/MikeConDH/AIE2/blob/main/Week%203/Day%202/Assignment_Introduction_to_LangChain_v0_1_0_and_LCEL_LangChain_Powered_RAG.ipynb
+- The notebook was merged and integrated into the Chainlit App.
+- To host this on Hugging Face, a Space was created, the application code and associated files were copied to the cloned directory
+- The space is a Docker container securely hosted by Hugging Face.
 
 # Share 🚀
-- The MikeC Midterm Loom Video:
-  https://www.loom.com/share/6b6959c8202446dea5005394a72eb823
-  
-- Hugging Face Space:
+- Enjoy.  You can find my Meta Financial App here:
   https://huggingface.co/spaces/MikeCraBash/mikecplay
 
 
