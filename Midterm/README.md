@@ -35,7 +35,7 @@ app_port: 7860
 # Build 🏗️
 - The python notebook to see the RAG Pipeline:
   
-  [Python Notebook: MidTerm.ipynb](https://github.com/MikeConDH/AIE2/blob/main/Week%203/Day%202/Assignment_Introduction_to_LangChain_v0_1_0_and_LCEL_LangChain_Powered_RAG.ipynb)
+  [Python Notebook: MidTerm.ipynb](https:https://github.com/MikeConDH/AIE2/blob/main/Midterm/MikeC%20Midterm.ipynb)
   
 - The python script with RAG Pipeline with Chainlit App:
 
