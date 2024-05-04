@@ -24,8 +24,8 @@ app_port: 7860
    Leverage the lessons on RAG using LangChain, set things and test in the notebook
 #### Step 3) Answer the 2 Questions (Test, Tweek, Repeat)
    Adjust as much as possible to get the two questions to answer correcdtly
-#### Step 4) RAGAS some metric (Maybe)
-   Time permitting, do a before and after from basic to final RAG.
+#### Step 4) RAGAS some metric (Changed the Retriever)
+   A before and after from basic to final RAG: targeted to improve the Ragas Answer Correctness score.
 
 ### Steps to Run:
 1. Create a Python 3.11 environment
@@ -43,6 +43,6 @@ app_port: 7860
 
 # Share 🚀
 - Enjoy.  You can find my Meta Financial App here:
-  https://huggingface.co/spaces/MikeCraBash/mikecplay
+  https://huggingface.co/spaces/MikeCraBash/mikecmt
 
 
