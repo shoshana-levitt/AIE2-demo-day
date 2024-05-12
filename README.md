@@ -1,48 +1,48 @@
-# 🧑‍💻 What is [AI Engineering](https://maven.com/aimakerspace/ai-eng-bootcamp)?
+---
+title: MikeCMT
+emoji: 📉
+colorFrom: pink
+colorTo: yellow
+sdk: docker
+pinned: false
+app_port: 7860
+---
 
-MIKEC
+<p align = "center" draggable=”false” ><img src="https://github.com/MikeConDH/AIE2/blob/main/MikeC/CraBashIcon.jpg" 
+     width="200px"
+     height="auto"/>
+</p>
 
-AI Engineering refers to the industry-relevant skills that data science and engineering teams need to successfully **build, deploy, operate, and improve Large Language Model (LLM) applications in production environments**.  
+## <h1 align="center" id="heading">🔍 AI Makerspace Midterm - RAG Application</h1>
 
-In practice, this requires understanding both prototyping and production deployments.
+### Outline:
+#### Step 1) Deploy a Hugging Face Space with a simple Chainlit Q&A App using GPT-3
 
-During the *prototyping* phase, Prompt Engineering, [Retrieval Augmented Generation (RAG)](https://www.youtube.com/playlist?list=PLrSHiQgy4VjFlWgcLHatJCBgfeE8smVyP), and [Fine-Tuning](https://www.youtube.com/playlist?list=PLrSHiQgy4VjGMzyXsSlvN-TjPaqFFsAGP) are all necessary tools to be able to understand and leverage. Prototyping includes:
-- Building RAG Applications
-- Fine-Tuning LLMs & Embedding Models
-- Building Agent/Reasoning Applications
-- LLM Application Deployment
+   Because this is general time suck that is the app shell that wraps the RAG application. DevOps is not my forte.
 
-When *productionizing* LLM application prototypes, there are many important aspects ensuring helpful, harmless, honest, reliable, and scalable solutions for your customers or stakeholders. Productionizing includes:
-- RAG Evaluation and Improvement
-- Monitoring and Visibility Tooling
-- Efficient Inference and Serving
-- Scaling LLM Applications
+#### Step 2) RAG (Data, Embeddings, Vector Store, Langchain, Prompt Template)
+   Leverage the lessons on RAG using LangChain, set things and test in the notebook
+#### Step 3) Answer the 2 Questions (Test, Tweek, Repeat)
+   Adjust as much as possible to get the two questions to answer correcdtly
+#### Step 4) RAGAS some metric (Changed the Retriever)
+   A before and after from basic to final RAG: targeted to improve the Ragas Answer Correctness score.
 
-This bootcamp builds on our two previous courses, [LLM Engineering](https://maven.com/aimakerspace/llm-engineering) and [LLM Operations](https://maven.com/aimakerspace/llmops) 👇
+### Steps to Run:
+1. Create a Python 3.11 environment
+2. Go the python notebook and run the jupyter notebook to see the RAG pipleine construction
+3. Go to Hugging Face to run the deployed Chainlit App.
 
-- Large Language Model Engineering (LLM Engineering) refers to the emerging best practices and tools for training, fine-tuning, and aligning LLMs before production deployment.  LLM Engineering is the counterpart to ML Engineering (MLE) which focuses on LLM-specific techniques like prompt engineering, reinforcement learning, quantization, and other methods required by this new paradigm.
-    
-- Large Language Model Ops (LLM Ops, or LLMOps (as from [WandB](https://docs.wandb.ai/guides/prompts) and [a16z](https://a16z.com/emerging-architectures-for-llm-applications/))) refers to the emerging best-practices, tooling, and improvement processes used to manage production LLM applications throughout the AI product lifecycle.  LLM Ops is a subset of Machine Learning Operations (MLOps) that focuses on LLM-specific infrastructure and ops capabilities required to build, deploy, monitor, and scale complex LLM applications in production environments.
+# Build 🏗️
+- The python notebook to see the RAG Pipeline: MikeC Midterm.ipynb (see above)  
+- The python script with RAG Pipeline with Chainlit App: app.py (see AppSandbox above)
 
-# 🏆 **Grading and Certification**
+# Ship 🚢
+- The notebook was merged and integrated into the Chainlit App.
+- To host this on Hugging Face, a Space was created, the application code and associated files were copied to the cloned directory
+- The space is a Docker container securely hosted by Hugging Face.
 
-To become **AI-Makerspace Certified**, which will open you up to additional opportunities for full and part-time work within our community and network, you must:
+# Share 🚀
+- Enjoy.  You can find my Meta Financial App here:
+  https://huggingface.co/spaces/MikeCraBash/mikecmt
 
-1. Complete all project assignments.
-2. Complete a project and present during Demo Day.
-3. Receive at least an 85% total grade in the course.
-
-If you do not complete all assignments, participate in Demo Day, or maintain a high-quality standard of work, you may still be eligible for a *certificate of completion* if you miss no more than 2 live sessions.
-
-# 📚 About
-
-This GitHub repository is your gateway to mastering the art of AI Engineering.  ***All assignments for the course will be released here for your building, shipping, and sharing adventures!***
-
-# 🙏 Contributions
-
-We believe in the power of collaboration. Contributions, ideas, and feedback are highly encouraged! Let's build the ultimate resource for AI Engineering together.
-
-Please to reach out with any questions or suggestions. 
-
-Happy coding! 🚀🚀🚀
 
