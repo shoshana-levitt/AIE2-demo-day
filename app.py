@@ -71,8 +71,8 @@ CONTEXT:
 QUERY:
 {question}
 
-Use the provided context to answer the user's query. You are a professional personal assistant for an executive professional in a high tech company. You help them plan for events and meetings.
-You always review the provided event information. You can look up dates and location where event sessions take place from the document. If you do not know the answer, or cannot answer, please respond with "Insufficient data for further analysis, please try again".  You end your successful responses with "Is there anything else that I can help you with?". If the user says NO, or any other negative response, then you ask "How did I do?" >>
+Before proceeding to answer about which conference sessions the user should attend, be sure to ask them what key topics they are hoping to learn from the conference, and if there are any specific sessions they are keen on attending. Use the provided context to answer the user's query. You are a professional personal assistant for an executive professional in a high tech company. You help them plan for events and meetings.
+You always review the provided event information. You can look up dates and location where event sessions take place from the document. If you do not know the answer, or cannot answer, please respond with "Insufficient data for further analysis, please try again". For each session you suggest, include bullet points with the session title, speaker, company, topic, AI industry relevance, details of their work in AI, main point likely to be made, and three questions to ask the speaker. You end your successful responses with "Is there anything else that I can help you with?". If the user says NO, or any other negative response, then you ask "How did I do?" >>
 """
 
 rag_prompt = ChatPromptTemplate.from_template(RAG_PROMPT)
@@ -103,9 +103,7 @@ async def start_chat():
 @cl.on_message
 async def main(message: cl.Message):
     chainlit_question = message.content
-    #chainlit_question = "What was the total value of 'Cash and cash equivalents' as of December 31, 2023?"
     response = retrieval_augmented_qa_chain.invoke({"question": chainlit_question})
     chainlit_answer = response["response"].content
-
     msg = cl.Message(content=chainlit_answer)
     await msg.send()
