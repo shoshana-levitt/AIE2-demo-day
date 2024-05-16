@@ -1,5 +1,5 @@
 ---
-title: MikeCMT
+title: ProPrepPal
 emoji: 📉
 colorFrom: pink
 colorTo: yellow
@@ -8,41 +8,42 @@ pinned: false
 app_port: 7860
 ---
 
-<p align = "center" draggable=”false” ><img src="https://github.com/MikeConDH/AIE2/blob/main/MikeC/CraBashIcon.jpg" 
+<p align = "center" draggable=”false” ><img src="https://drive.google.com/file/d/1zbvsMo0jpCk_3VWhhlL3NMKhjHsfM3BU"
      width="200px"
      height="auto"/>
 </p>
 
-## <h1 align="center" id="heading">🔍 AI Makerspace Midterm - RAG Application</h1>
+## <h1 align="center" id="heading">🔍 AI Makerspace Demo Day - ProPrepPal</h1>
 
 ### Outline:
-#### Step 1) Deploy a Hugging Face Space with a simple Chainlit Q&A App using GPT-3
 
-   Because this is general time suck that is the app shell that wraps the RAG application. DevOps is not my forte.
+#### Problem
 
-#### Step 2) RAG (Data, Embeddings, Vector Store, Langchain, Prompt Template)
-   Leverage the lessons on RAG using LangChain, set things and test in the notebook
-#### Step 3) Answer the 2 Questions (Test, Tweek, Repeat)
-   Adjust as much as possible to get the two questions to answer correcdtly
-#### Step 4) RAGAS some metric (Changed the Retriever)
-   A before and after from basic to final RAG: targeted to improve the Ragas Answer Correctness score.
+Professionals often face difficulties in adequately preparing for meetings where active participation is crucial. The complexity and diversity of information required for effective participation can make preparation time-consuming and overwhelming.
 
-### Steps to Run:
-1. Create a Python 3.11 environment
-2. Go the python notebook and run the jupyter notebook to see the RAG pipleine construction
-3. Go to Hugging Face to run the deployed Chainlit App.
+#### Why it’s a Problem
+
+Engagement in company meetings, events, and interviews demands varying depths of knowledge, ranging from detailed specific information to a broad understanding of multiple topics. This necessitates extensive research and preparation, which can be particularly challenging due to the time required and the organizational skills needed. With increasing professional demands, the ability to efficiently prepare for engagements is compromised, leading to decreased job satisfaction and productivity.
+
+#### Solution
+
+Prepr is designed to be your personal assistant, dedicated to ensuring you are comprehensively prepared for any meeting or event. It functions by monitoring your schedule, identifying upcoming engagements, and automatically compiling crucial summaries, key information, pending issues, and relevant background details. Initially, Prepr will operate as a chatbot, providing essential information for your appointments. Future versions will evolve into a more dynamic AI agent capable of offering not only information but also coordination support.
+
+#### Target Audience
+
+The primary users of Prepr are professionals who frequently attend meetings, conferences, and other professional gatherings. Success Metrics The effectiveness of Prepr will be measured by the enhanced productivity of meetings and the increased satisfaction users experience with their time management and goal achievement. Integral to Prepr will be built-in metrics that provide feedback on the utility of the meeting preparations, the relevance of the information provided, and the overall efficacy of the tool in enhancing meeting outcomes.
 
 # Build 🏗️
-- The python notebook to see the RAG Pipeline: MikeC Midterm.ipynb (see above)  
-- The python script with RAG Pipeline with Chainlit App: app.py (see AppSandbox above)
+
+- The python notebook prepr.ipynb - this includes the RAG system, tests of the prompts, RAGAS and LangSmith
+- The python script with RAG Pipeline with Chainlit App: app.py
 
 # Ship 🚢
+
 - The notebook was merged and integrated into the Chainlit App.
 - To host this on Hugging Face, a Space was created, the application code and associated files were copied to the cloned directory
 - The space is a Docker container securely hosted by Hugging Face.
 
 # Share 🚀
-- Enjoy.  You can find my Meta Financial App here:
-  https://huggingface.co/spaces/MikeCraBash/mikecmt
 
-
+- Enjoy the app hosted on Hugging Face
