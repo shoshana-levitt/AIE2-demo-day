@@ -27,7 +27,7 @@ Engagement in company meetings, events, and interviews demands varying depths of
 
 #### Solution
 
-Prepr is designed to be your personal assistant, dedicated to ensuring you are comprehensively prepared for any meeting or event. It functions by monitoring your schedule, identifying upcoming engagements, and automatically compiling crucial summaries, key information, pending issues, and relevant background details. Initially, Prepr will operate as a chatbot, providing essential information for your appointments. Future versions will evolve into a more dynamic AI agent capable of offering not only information but also coordination support.
+ProPrepPal is designed to be your personal assistant, dedicated to ensuring you are comprehensively prepared for any meeting or event. It functions by monitoring your schedule, identifying upcoming engagements, and automatically compiling crucial summaries, key information, pending issues, and relevant background details. Initially, Prepr will operate as a chatbot, providing essential information for your appointments. Future versions will evolve into a more dynamic AI agent capable of offering not only information but also coordination support.
 
 #### Target Audience
 
@@ -47,3 +47,4 @@ The primary users of Prepr are professionals who frequently attend meetings, con
 # Share 🚀
 
 - Enjoy the app hosted on Hugging Face
+  https://huggingface.co/spaces/MikeCraBash/prepr

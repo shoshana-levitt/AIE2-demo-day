@@ -139,7 +139,6 @@ async def start_chat():
 @cl.on_message
 async def main(message: cl.Message):
     chainlit_question = message.content
-    #chainlit_question = "What was the total value of 'Cash and cash equivalents' as of December 31, 2023?"
     response = retrieval_augmented_qa_chain.invoke({"question": chainlit_question})
     chainlit_answer = response["response"].content
 
