@@ -47,5 +47,5 @@ The primary users of Prepr are professionals who frequently attend meetings, con
 # Share 🚀
 
 - Enjoy the app hosted on Hugging Face
-  https://huggingface.co/spaces/shoshana-levitt/pro-prep-pal
-  https://huggingface.co/spaces/MikeCraBash/prepr
+- https://huggingface.co/spaces/shoshana-levitt/pro-prep-pal
+- https://huggingface.co/spaces/MikeCraBash/prepr
